@@ -22,6 +22,9 @@ jobs:
           pip install requests
           python generate_extension_entry.py
 
+      - name: Show remote URL
+        run: git config --get remote.origin.url
+
       - name: Commit and Push
         run: |
           git config user.name "AI Extension Bot"
