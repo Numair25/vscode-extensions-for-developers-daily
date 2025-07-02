@@ -14,11 +14,13 @@ def parse_extension_file(filepath):
     category = re.search(r"\*\*Category:\*\*\s*(.+)", content)
     link = re.search(r"\*\*Marketplace Link:\*\*\s*\[View Extension\]\((.+?)\)", content)
     ext_id = re.search(r"\*\*ID:\*\*\s*`(.+?)`", content)
+    overview = re.search(r"\*\*Overview:\*\*\s*(.+)", content)
     return {
         "name": name.group(1).strip() if name else None,
         "category": category.group(1).strip() if category else "Uncategorized",
         "link": link.group(1).strip() if link else None,
         "id": ext_id.group(1).strip() if ext_id else None,
+        "overview": overview.group(1).strip() if overview else "",
     }
 
 def collect_extensions():
@@ -45,12 +47,13 @@ def generate_extensions_section(extensions):
     for cat in sorted(extensions):
         anchor = make_category_anchor(cat)
         lines.append(f"\n## {cat}\n")
-        lines.append("| Name | Marketplace Link | ID |\n|------|------------------|----|")
+        lines.append("| Name | Marketplace Link | ID | Overview |\n|------|------------------|----|----------|")
         for ext in extensions[cat]:
             name = f"**{ext['name']}**"
             link = f"[View Extension]({ext['link']})" if ext['link'] else ""
             ext_id = f"`{ext['id']}`" if ext['id'] else ""
-            lines.append(f"| {name} | {link} | {ext_id} |")
+            overview = ext['overview'] if ext['overview'] else ""
+            lines.append(f"| {name} | {link} | {ext_id} | {overview} |")
     lines.append("\n---")
     lines.append(END_MARKER)
     lines.append("\n_This section is automatically generated. Do not edit manually._\n")
