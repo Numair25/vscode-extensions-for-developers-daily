@@ -65,12 +65,6 @@ Below you'll find a regularly updated list of the best VS Code extensions for de
 _This section is automatically generated. Do not edit manually._
 
 
-_This section is automatically generated. Do not edit manually._
-
-
-_This section is automatically generated. Do not edit manually._
-
-
 ## Contributing
 
 Have a favorite VS Code extension for developers? Feel free to open an issue or pull request to suggest new extensions!
