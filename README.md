@@ -58,10 +58,12 @@ Below you'll find a regularly updated list of the best VS Code extensions for de
 | **Path Intellisense** | [View Extension](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | `christian-kohler.path-intellisense` | Path Intellisense autocompletes filenames in your code, making it easier to import files and navigate your project. |
 | **Debugger for Chrome** | [View Extension](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) | `msjsdiag.debugger-for-chrome` | Debugger for Chrome enables you to debug your JavaScript code running in Google Chrome directly from VS Code. |
 | **ESLint** | [View Extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `dbaeumer.vscode-eslint` | ESLint is a popular linter for JavaScript and TypeScript that helps you find and fix problems in your code, enforcing coding standards and best practices. |
-| **ESLint** | [View Extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `dbaeumer.vscode-eslint` | ESLint is a popular linter for JavaScript and TypeScript that helps you find and fix problems in your code, enforcing coding standards and best practices. |
 
 ---
 <!-- EXTENSIONS-LIST-END -->
+
+_This section is automatically generated. Do not edit manually._
+
 
 _This section is automatically generated. Do not edit manually._
 
