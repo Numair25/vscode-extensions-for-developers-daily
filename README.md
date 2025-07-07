@@ -58,6 +58,8 @@ Below you'll find a regularly updated list of the best VS Code extensions for de
 | **Path Intellisense** | [View Extension](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | `christian-kohler.path-intellisense` | Path Intellisense autocompletes filenames in your code, making it easier to import files and navigate your project. |
 | **Debugger for Chrome** | [View Extension](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) | `msjsdiag.debugger-for-chrome` | Debugger for Chrome enables you to debug your JavaScript code running in Google Chrome directly from VS Code. |
 | **ESLint** | [View Extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) | `dbaeumer.vscode-eslint` | ESLint is a popular linter for JavaScript and TypeScript that helps you find and fix problems in your code, enforcing coding standards and best practices. |
+| **GitLens** | [View Extension](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) | `eamodio.gitlens` | GitLens supercharges the built-in VS Code Git capabilities, providing rich insights into code authorship, history, and more, right in your editor. |
+| **Bracket Pair Colorizer 2** | [View Extension](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) | `CoenraadS.bracket-pair-colorizer-2` | Bracket Pair Colorizer 2 allows matching brackets to be identified with colors, making it easier to read and debug code with nested structures. |
 
 ---
 <!-- EXTENSIONS-LIST-END -->
