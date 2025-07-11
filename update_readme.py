@@ -56,7 +56,7 @@ def generate_extensions_section(extensions):
             lines.append(f"| {name} | {link} | {ext_id} | {overview} |")
     lines.append("\n---")
     lines.append(END_MARKER)
-    lines.append("\n_This section is automatically generated. Do not edit manually._\n")
+    # lines.append("\n_This section is automatically generated. Do not edit manually._\n")
     return "\n".join(lines)
 
 def update_readme(extensions):
