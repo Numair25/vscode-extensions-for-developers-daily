@@ -1,6 +1,7 @@
 import random
 from datetime import datetime
 import os
+import re
 
 extensions = [
     {
@@ -46,7 +47,27 @@ extensions = [
 ]
 
 today = datetime.now().strftime("%Y-%m-%d")
-chosen = random.choice(extensions)
+ext_dir = "extensions"
+used_ids = set()
+
+# Scan all markdown files in the extensions directory for used IDs
+if os.path.exists(ext_dir):
+    for fname in os.listdir(ext_dir):
+        if fname.endswith(".md"):
+            with open(os.path.join(ext_dir, fname), "r", encoding="utf-8") as f:
+                for line in f:
+                    match = re.match(r"\\*\\*ID:\\*\\* `([^`]+)`", line)
+                    if match:
+                        used_ids.add(match.group(1))
+
+# Filter out used extensions
+unused_extensions = [ext for ext in extensions if ext["id"] not in used_ids]
+
+if not unused_extensions:
+    print("All extensions have been used! No new extension to add.")
+    exit(0)
+
+chosen = random.choice(unused_extensions)
 url = f"https://marketplace.visualstudio.com/items?itemName={chosen['id']}"
 
 md = f"""# VS Code Extension of the Day - {today}
@@ -57,6 +78,6 @@ md = f"""# VS Code Extension of the Day - {today}
 **Overview:** {chosen['overview']}  
 """
 
-os.makedirs("extensions", exist_ok=True)
-with open(f"extensions/{today}.md", "w") as f:
+os.makedirs(ext_dir, exist_ok=True)
+with open(f"{ext_dir}/{today}.md", "w", encoding="utf-8") as f:
     f.write(md)
