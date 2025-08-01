@@ -1,0 +1,274 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Best VS Code Extensions for Developers - Daily Recommendations",
+  "description": "Discover the most useful Visual Studio Code extensions for developers, updated daily with curated recommendations to boost your productivity and code quality.",
+  "url": "https://github.com/Numair25/daily-vscode-extensions-for-developers",
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "VS Code Extensions",
+    "numberOfItems": 20,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Live Server",
+          "description": "Live Server launches a local development server with live reload for static and dynamic pages, making web development faster and easier.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+          "applicationCategory": "Web Development",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Debugger for Chrome",
+          "description": "Debugger for Chrome enables you to debug your JavaScript code running in Google Chrome directly from VS Code.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome",
+          "applicationCategory": "Testing & Debugging",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Prettier",
+          "description": "Prettier is an opinionated code formatter that enforces a consistent style by parsing your code and re-printing it with its own rules, supporting many languages and integrating with most editors.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+          "applicationCategory": "Code Quality & Formatting",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Prettier",
+          "description": "Prettier is an opinionated code formatter that enforces a consistent style by parsing your code and re-printing it with its own rules, supporting many languages and integrating with most editors.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+          "applicationCategory": "Code Quality & Formatting",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "ESLint",
+          "description": "ESLint is a popular linter for JavaScript and TypeScript that helps you find and fix problems in your code, enforcing coding standards and best practices.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint",
+          "applicationCategory": "Code Quality & Formatting",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "ESLint",
+          "description": "ESLint is a popular linter for JavaScript and TypeScript that helps you find and fix problems in your code, enforcing coding standards and best practices.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint",
+          "applicationCategory": "Code Quality & Formatting",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Live Server",
+          "description": "Live Server launches a local development server with live reload for static and dynamic pages, making web development faster and easier.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+          "applicationCategory": "Web Development",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Bracket Pair Colorizer 2",
+          "description": "Bracket Pair Colorizer 2 allows matching brackets to be identified with colors, making it easier to read and debug code with nested structures.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2",
+          "applicationCategory": "Productivity & Navigation",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Live Server",
+          "description": "Live Server launches a local development server with live reload for static and dynamic pages, making web development faster and easier.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+          "applicationCategory": "Web Development",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "GitLens",
+          "description": "GitLens supercharges the built-in VS Code Git capabilities, providing rich insights into code authorship, history, and more, right in your editor.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
+          "applicationCategory": "Git & Version Control",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Live Server",
+          "description": "Live Server launches a local development server with live reload for static and dynamic pages, making web development faster and easier.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+          "applicationCategory": "Web Development",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Debugger for Chrome",
+          "description": "Debugger for Chrome enables you to debug your JavaScript code running in Google Chrome directly from VS Code.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome",
+          "applicationCategory": "Testing & Debugging",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Bracket Pair Colorizer 2",
+          "description": "Bracket Pair Colorizer 2 allows matching brackets to be identified with colors, making it easier to read and debug code with nested structures.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2",
+          "applicationCategory": "Productivity & Navigation",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Bracket Pair Colorizer 2",
+          "description": "Bracket Pair Colorizer 2 allows matching brackets to be identified with colors, making it easier to read and debug code with nested structures.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2",
+          "applicationCategory": "Productivity & Navigation",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Bracket Pair Colorizer 2",
+          "description": "Bracket Pair Colorizer 2 allows matching brackets to be identified with colors, making it easier to read and debug code with nested structures.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2",
+          "applicationCategory": "Productivity & Navigation",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 16,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Bracket Pair Colorizer 2",
+          "description": "Bracket Pair Colorizer 2 allows matching brackets to be identified with colors, making it easier to read and debug code with nested structures.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2",
+          "applicationCategory": "Productivity & Navigation",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 17,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "ESLint",
+          "description": "ESLint is a popular linter for JavaScript and TypeScript that helps you find and fix problems in your code, enforcing coding standards and best practices.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint",
+          "applicationCategory": "Code Quality & Formatting",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 18,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "Debugger for Chrome",
+          "description": "Debugger for Chrome enables you to debug your JavaScript code running in Google Chrome directly from VS Code.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome",
+          "applicationCategory": "Testing & Debugging",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 19,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "ESLint",
+          "description": "ESLint is a popular linter for JavaScript and TypeScript that helps you find and fix problems in your code, enforcing coding standards and best practices.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint",
+          "applicationCategory": "Code Quality & Formatting",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 20,
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "YAML",
+          "description": "YAML language support for VS Code, providing syntax highlighting, validation, and formatting for YAML files.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml",
+          "applicationCategory": "Docker & DevOps",
+          "operatingSystem": "Windows, macOS, Linux",
+          "softwareVersion": "Latest"
+        }
+      }
+    ]
+  }
+}

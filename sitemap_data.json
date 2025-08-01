@@ -1,0 +1,13 @@
+{
+  "lastmod": "2025-08-01T10:18:19.527092",
+  "total_extensions": 20,
+  "categories": 6,
+  "extensions_by_category": {
+    "Web Development": 4,
+    "Testing & Debugging": 3,
+    "Code Quality & Formatting": 6,
+    "Productivity & Navigation": 5,
+    "Git & Version Control": 1,
+    "Docker & DevOps": 1
+  }
+}
