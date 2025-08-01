@@ -4,7 +4,7 @@ import os
 import re
 import json
 
-# Comprehensive list of VS Code extensions organized by categories with 10 extensions each
+# Comprehensive list of VS Code extensions with exactly 10 per category
 extensions_by_category = {
     "Code Quality & Formatting": [
         {
@@ -95,12 +95,6 @@ extensions_by_category = {
             "tags": ["git", "blame", "history", "authorship"]
         },
         {
-            "name": "GitLens — Git supercharged",
-            "id": "eamodio.gitlens",
-            "overview": "GitLens supercharges the built-in VS Code Git capabilities, providing rich insights into code authorship, history, and more, right in your editor.",
-            "tags": ["git", "version-control", "history", "blame"]
-        },
-        {
             "name": "GitHub Pull Requests and Issues",
             "id": "GitHub.vscode-pull-request-github",
             "overview": "Review and manage GitHub pull requests and issues directly in VS Code.",
@@ -129,6 +123,12 @@ extensions_by_category = {
             "id": "GitHub.copilot-chat",
             "overview": "GitHub Copilot Chat is an AI-powered chat interface that helps you code faster and with more confidence.",
             "tags": ["ai", "chat", "github", "productivity"]
+        },
+        {
+            "name": "GitLens — Git supercharged",
+            "id": "eamodio.gitlens",
+            "overview": "GitLens supercharges the built-in VS Code Git capabilities, providing rich insights into code authorship, history, and more, right in your editor.",
+            "tags": ["git", "version-control", "history", "blame"]
         }
     ],
     
@@ -215,12 +215,6 @@ extensions_by_category = {
             "tags": ["javascript", "typescript", "bundle-size", "optimization"]
         },
         {
-            "name": "JavaScript (ES6) code snippets",
-            "id": "xabikos.JavaScriptSnippets",
-            "overview": "This extension contains code snippets for JavaScript in ES6 syntax for VS Code editor.",
-            "tags": ["javascript", "snippets", "es6", "productivity"]
-        },
-        {
             "name": "TypeScript Hero",
             "id": "rbbit.typescript-hero",
             "overview": "TypeScript Hero organizes your imports, sorts them and removes unused imports automatically.",
@@ -231,6 +225,12 @@ extensions_by_category = {
             "id": "ms-vscode.js-debug",
             "overview": "JavaScript Debugger provides debugging support for JavaScript and TypeScript in VS Code.",
             "tags": ["javascript", "typescript", "debugging", "development"]
+        },
+        {
+            "name": "TypeScript Vue Plugin",
+            "id": "Vue.volar",
+            "overview": "TypeScript Vue Plugin provides TypeScript language support for Vue 3.",
+            "tags": ["vue", "typescript", "language-support", "web-development"]
         },
         {
             "name": "JavaScript (ES6) code snippets",
@@ -769,4 +769,4 @@ with open(f"{ext_dir}/{today}.md", "w", encoding="utf-8") as f:
 
 print(f"Generated extension entry for {today}: {chosen['name']}")
 print(f"Category: {chosen['category']}")
-print(f"Tags: {', '.join(chosen['tags'])}")
+print(f"Tags: {', '.join(chosen['tags'])}") 
