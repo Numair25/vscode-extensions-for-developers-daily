@@ -2,7 +2,7 @@ name: Daily Extension Commit
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # Runs daily at 10 AM UTC
+    # - cron: '0 10 * * *'  # Runs daily at 10 AM UTC
   workflow_dispatch:
 
 jobs:
